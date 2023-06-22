@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.main-div {
+    background-image: url(../asset/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    user-select: none;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 4rem;
+    text-align: center;
+}
+
+div.column {
+    width: 70%;
+    height: 100px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.column div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 85%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffff;
+}
+
+label {
+    font-size: 1.4rem;
+}
